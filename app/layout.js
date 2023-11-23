@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={classNames(GeistSans.className, 'flex flex-row justify-center')}>
-        <div className={classNames('w-full max-w-4xl p-2')}>
+        <div className={classNames('w-full p-4')}>
           <Header />
           {children}
         </div>
