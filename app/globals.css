@@ -8,6 +8,11 @@
   }
 }
 
+html {
+  background: hsla(358, 85%, 68%, 1);
+  background: linear-gradient(90deg, hsla(358, 85%, 68%, 1) 0%, hsla(41, 98%, 49%, 1) 100%);
+}
+
 body {
   background-color: #262626;
 }

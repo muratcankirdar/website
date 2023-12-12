@@ -11,8 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={classNames(GeistSans.className, 'flex flex-row justify-center dark')}>
-        <div className={classNames('w-full p-4')}>
+      <body className={classNames(GeistSans.className, 'flex flex-row justify-center dark m-4')}>
+        <div className={classNames('w-full')}>
           <Header />
           {children}
         </div>
