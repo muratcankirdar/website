@@ -12,13 +12,13 @@ export default function Header() {
         Murat Can Kırdar
       </h2>
 
-      <div className='flex flex-row gap-2 items-center'>
+      <div className='flex flex-row gap-2 items-center text-white'>
         <Link href={LINKEDIN} target={'_blank'}>
-          <Image src='/linkedin.png' alt='LinkedIn Logo' width={24} height={24} />
+          {'LinkedIn'}
         </Link>
 
         <Link href={GITHUB} target={'_blank'}>
-          <Image src='/github.svg' alt='GitHub Logo' width={24} height={24} />
+          {'Github'}
         </Link>
       </div>
     </header>
