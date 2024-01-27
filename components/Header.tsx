@@ -5,7 +5,7 @@ interface Props {}
 
 const Header: FC<Props> = () => {
   return (
-    <header className="m-2 flex flex-row justify-between border p-2">
+    <header className="m-2 flex flex-row justify-between rounded-lg border p-2">
       <span className="font-bold">Murat Can</span>
 
       <div className="flex flex-row gap-2">

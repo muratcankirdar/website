@@ -1,5 +1,10 @@
+import CompanyCardContainer from "@/components/CompanyCardContainer";
+import companyData from "@/lib/companyData";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <main className="flex flex-col p-2">
+      <CompanyCardContainer companyData={companyData} />
+    </main>
   );
 }
