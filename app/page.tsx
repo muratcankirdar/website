@@ -1,5 +1,5 @@
-import CompanyCardContainer from "@/components/CompanyCardContainer";
-import companyData from "@/lib/companyData";
+import CompanyCardContainer from '@/components/CompanyCardContainer';
+import companyData from '@/lib/companyData';
 
 export default function Home() {
   return (

@@ -1,15 +1,15 @@
-import { FC } from "react";
-import Image from "next/image";
+import { FC } from 'react';
+import Image from 'next/image';
 import {
   Card,
   CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
-} from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import Skills from "./Skills";
-import CompanySummary from "./CompanySummary";
+} from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import Skills from './Skills';
+import CompanySummary from './CompanySummary';
 
 interface CompanyCardProps {
   logo: string;

@@ -1,5 +1,5 @@
-import { FC } from "react";
-import { Badge } from "./ui/badge";
+import { FC } from 'react';
+import { Badge } from './ui/badge';
 
 interface SkillsProps {
   skills: string[];

@@ -1,6 +1,6 @@
-import { FC } from "react";
-import CompanyCard from "./CompanyCard";
-import { CompanyData, Company } from "@/lib/companyData";
+import { FC } from 'react';
+import CompanyCard from './CompanyCard';
+import { CompanyData, Company } from '@/lib/companyData';
 
 interface CompanyCardContainerProps {
   companyData: CompanyData;
